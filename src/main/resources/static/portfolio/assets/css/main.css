@@ -78,10 +78,64 @@ input, select, textarea {
 
 #skillTb .fontBord {
 	font-weight: bold;
+	text-align: right;
 }
 
 #skillTb .font400 {
 	font-weight: 400;
+}
+
+
+.skillDiv {
+	float: left;
+	border: 1px solid;
+}
+.skillDiv2 {
+	float: left;
+	margin-right: 5px;
+	width: 33%;
+}
+
+.skillImg img{
+	width: 100px;
+	height: 100px;
+}
+
+#careerTb {
+	background-color: #f4f4f4;
+}
+
+#careerTb tr {
+	background-color: #f4f4f4;
+}
+
+#careerTb .careerTr td {
+	height: 5px;
+}
+
+.careerFont {
+	font-weight: 400;
+	font-size: 15px;
+}
+
+#careerTb .careerUl {
+	font-size: 17px;
+	font-weight: normal;
+	margin-top: -10px;
+	margin-left: 20px;
+}
+#careerTb .careerDate {
+	font-weight: bold;
+	text-align: right;
+}
+
+#careerTb .careerCompany {
+	font-weight: normal;
+}
+
+#careerTb .careerCompany2 {
+	font-weight: normal;
+	font-size: 13px;
 }
 
 /* Basic */
@@ -2259,24 +2313,24 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
+				background-color: white;
 				background-image: url("../../images/banner.jpg");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #fafafa;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: white;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #fafafa;
 			}
 
 			#main > section.five {
-				background-color: #f5fafa;
+				background-color: white;
 			}
 
 /* Wide */
